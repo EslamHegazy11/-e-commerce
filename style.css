@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Bubbles&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Prompt
+  ;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  height: 10vh;
+  padding: 0 5rem;
+}
+
+nav .logo {
+  display: flex;
+  font-size: 2rem;
+  align-items: center;
+}
+
+nav .logo i {
+  color: rgb(67, 134, 134);
+  padding: 1rem;
+}
+
+nav .nav-items{
+  display: flex;
+ list-style-type: none;
+}
+nav .nav-items .nav-item{
+  padding: 0 1rem;
+}
+nav .nav-link{
+  text-decoration: none;
+  color: rgb(39, 121, 121);
+  font-size: medium;
+}
+nav .nav-link:hover{
+  color: rgb(12, 33, 27);
+  transition: 0.2s;
+}
+/* hero section */
+
+.hero{
+  background-color: rgb(109, 130, 122);
+}
+.hero-section{
+  max-width: 1366px;
+  height: 90vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.hero-section .content{
+  display: flex;
+  flex-direction: column;
+}
+.hero-section h4{
+  color: rgb(81, 170, 137);
+  font-size: larger;
+  margin-bottom: 1rem;
+}
+.hero-section .content h1{
+  font-size: 2.6rem;
+  color: rgb(139, 255, 183);
+
+}
+
+.hero-section p {
+  color: rgb(5, 71, 62);
+}
+.hero-section p span {
+ color: rgb(42, 167, 163); 
+
+}
+.btn{
+  width: 10rem;
+  margin: 3rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  padding: 0.7rem 1.5rem;
+ background-color: rgb(68, 154, 154);
+
+}
+.btn:hover{
+  background-color: rgb(0, 175, 175);
+  transition: 0.2s;
+  cursor: pointer;
+}
+.btn a{
+  text-decoration: none;
+  color: rgb(73, 255, 255);
+  font-size: 1rem;
+}
+/* featuars */
+section.featuars{
+  padding: 0.2rem 0;
+  background-color: rgb(76, 144, 138);
+}
+section.featuars .featuars-section{
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.featuars-section h4{
+  color: rgb(180, 198, 183);
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+.featuars-section .qualities{
+  display: flex;
+  justify-content: space-between;
+}
+.featuars-section .qualities .quality{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(46, 197, 203);
+  padding: 2rem;
+  max-width: 17rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+.featuars-section .qualities .quality:hover{
+  border: 2px solid rgb(19, 65, 67);
+  cursor: pointer;
+}
+.qualities .quality i{
+  font-size: 2rem;
+  color: rgb(0, 112, 112);
+  margin-bottom: 1rem;
+}
+.qualities .quality h3{
+ font-size: 1.6rem;
+ margin-bottom: 1rem;
+}
+.qualities .quality p{
+  font-size: 1rem;
+  text-align: center;
+  color: rgb(61, 91, 81);
+}
+/* phones section */
+
+.new-phones{
+  padding-top: 5rem;
+}
+.new-phones .phones-section{
+  max-width: 1400px;
+  margin: 100px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+ 
+}
+.phones-section h4{
+  color: rgb(58, 117, 117);
+  font-size: 1.5;
+  margin-bottom: 2rem;
+  
+}
+.phones-section .phones{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: flex-start;
+
+}
+.phones .phone{
+  margin: 2rem;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.phone img{
+  margin-bottom: 1rem;
+}
+
+
+.phone img:hover{
+  scale: 1.1;
+  cursor: pointer;
+}
+.phones-section button{
+  align-items: center;
+}
+/* footer section */
+footer{
+ background-color: rgb(65, 114, 98);
+ height: 30vh;
+ margin-top: 5rem;
+}
+.footer-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 5rem;
+}
+.footer-section p{
+  font-size: 1.2;
+  margin-bottom: 1rem;
+  color: rgb(92, 174, 147);
+}
+.footer-section .socials{
+  margin-bottom: 1rem;
+  color: aquamarine;
+}
+.footer-section .socials i{
+  margin-bottom: 1 0.5rem;
+  font-size: 1.6rem;
+}
+.footer-section .socials i:hover{
+  color: rgb(32, 77, 62);
+  
+}
+/* resbonsev */
+@media (max-width:377px){
+  *{
+   min-width: 377px;
+  }
+}
